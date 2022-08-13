@@ -1,0 +1,108 @@
+:root{
+    --yellow:#ffc127;
+}
+.bigcard{
+    width: 100%;
+    background-color: white;
+    padding: 0.51vmax 1.71vmax;
+    margin: 2vmax;
+    width: 90%;
+    box-shadow: -1px 5px 19px 1px rgba(161,161,161,0.82);
+-webkit-box-shadow: -1px 5px 19px 1px rgba(161,161,161,0.82);
+-moz-box-shadow: -1px 5px 19px 1px rgba(161,161,161,0.82);
+border-radius: 10px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 0.7vmax;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 20%;
+    /* background-color: red; */
+}
+.header h1{
+    font-size: 3vmax;
+    color: #6200ed;
+}
+
+.others{
+
+}
+.head12{
+    font-size: 2vmax;
+}
+.head15{
+    font-size:0.8vmax;
+    word-spacing: 0.21vmax;
+    color: rgba(128, 128, 128, 0.882);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red */
+}
+.anbut{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color:yellow; */
+
+}
+.bb{
+    padding: 1vmax;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1vmax;
+}
+.bigbut{
+    background-color: #6200ed;
+    width: 40%;
+}
+.bigbut2{
+    width: 50%;
+    background-color: #0068ff;
+}
+.spani{
+    background-color: var(--yellow);
+    padding: 0.2vmax 0.5vmax;
+    border-radius: 50%;
+    color: white;
+}
+@media only screen and (max-width:1200px) {
+    .header{
+        text-align: center;
+    }
+ .mainpara{
+    font-size: 1vmax;
+ }
+ .buttons{
+    padding: 2vmax;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    flex-direction: column;
+ }
+ .anbut{
+    width: 100%;
+    margin-bottom: 1vmax;
+    /* background-color: greenyellow; */
+ }
+.bigbut{
+    width: 40%;
+    padding: 1vmax;
+}
+.bigbut2{
+    width: 50%;
+}
+}
